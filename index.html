@@ -8,14 +8,23 @@
     <link rel="stylesheet" type="text/css" href="fontes.css">
 <style>
 
-    h1 {
+    body {
+        background-color: rosybrown;
+    }
+
+    span {
         left:90%;
         position: fixed;
-        transform: translate(-50%,0);
+        transform: translate(20%,0);
+        font-weight: 100;
+        font-size: 30px;
+        display: inline;
+        color: white;
     }
 
     .container {
         display: flex;
+        width: 80%;
     }
 
     img {
@@ -54,8 +63,24 @@
     div {
         font-size: 30px;
     }
+    a {
+        text-decoration: none;
+        color: green;
+    }
 
-    
+    .bloco01 {
+        background-color: blue;
+    }
+    .bloco02 {
+        background-color: red;
+    }
+    .bloco03 {
+        background-color: yellow;
+    }
+
+    .bloco01:hover, h2:hover {
+        background-color: white;
+    }
 
 </style>
 
@@ -63,28 +88,30 @@
 </head>
 
 <body>
-    <h1>Fernando Barreto</h1>
+    <span>Fernando Barreto</span>
     <div class="container">
-    <div class="picture">   <img src="images/proflie-pic.jpeg" alt="Foto muito bonita do estudante tryber Fernando Barreto" width="300px">
-    </div>
+        <div class="picture">   <img src="images/proflie-pic.jpeg" alt="Foto muito bonita do estudante tryber Fernando Barreto" width="300px">
+        </div>
     
-    <div class="listalinks">
-    <ul>
-        <li><a href="#quemSouEu">Quem sou eu</a></li>
-        <li><a href="#comoEuSou">Qualidades</a></li>
-        <li><a href="#linksExternos">Links Externos</a></li>
-    </ul>
+        <div class="listalinks">
+            <ul>
+                <li><a href="#quemSouEu">Quem sou eu</a></li>
+                <li><a href="#comoEuSou">Qualidades</a></li>
+                <li><a href="#linksExternos">Links Externos</a></li>
+            </ul>
+        </div>
     </div>
-    </div>
-    <h2 style="font-size:40px;" id="quemSouEu">Quem sou:</h2>
-    <div class="textos">
-    <p id="apresentacao">Meu nome é Fernando Barreto, sou advogado em transição de carreira e estudante de engenharia de software da <strong>Trybe!</strong><br>
+        <div class="bloco01">
+        <h2 style="font-size:40px;" id="quemSouEu">Quem sou:</h2>
+        <div class="textos">
+        <p id="apresentacao">Meu nome é Fernando Barreto, sou advogado em transição de carreira e estudante de engenharia de software da <strong>Trybe!</strong><br>
     Sou natural de Recife, Pernambuco e tenho 28 anos</p>
+        </div>
     </div>
-    
-    <h3 style="font-size:40px;" id="comoEuSou">Qualidades</h3>
-    <div class="textos">
-    <ol class="listaQualidades">
+    <div class="bloco02">
+        <h3 style="font-size:40px;" id="comoEuSou">Qualidades</h3>
+        <div class="textos">
+        <ol class="listaQualidades">
         <li>Boa comunicação</li>
         <li>Oratória</li>
         <li>Bom trabalhando em equipe</li>
@@ -92,13 +119,16 @@
         <li>Bom Raciocínio lógico</li>
         <li><strong>Calmo</strong></li>
         <li>Gosto de aprender coisas novas</li>
-    </ol>
+        </ol>
+        </div>
     </div>
-    <h4 id="linksExternos">Links Externos</h4><br>
-    <div>
-    <p id="redesSociais"><a href="https://open.spotify.com/user/12145821074?si=e4a5d763e86949db" target="_blank"><em>Quem sou eu +</em></a><br>
-    <a href="https://github.com/nandogb" target="_blank"><em>Github</em></a><br>
-    <a href="https://twitter.com/nandobarreto_" target="_blank"><em>Twitter</em></a></p>
+    <div class="bloco03">
+        <h4 id="linksExternos">Links Externos</h4><br>
+        <div>
+        <p id="redesSociais"><a href="https://open.spotify.com/user/12145821074?si=e4a5d763e86949db" target="_blank"><em>Quem sou eu +</em></a><br>
+        <a href="https://github.com/nandogb" target="_blank"><em>Github</em></a><br>
+        <a href="https://twitter.com/nandobarreto_" target="_blank"><em>Twitter</em></a></p>
+        </div>
     </div>
 </body>
 </html>
