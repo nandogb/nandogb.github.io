@@ -8,6 +8,16 @@
     <link rel="stylesheet" type="text/css" href="fontes.css">
 <style>
 
+    h1 {
+        left:90%;
+        position: fixed;
+        transform: translate(-50%,0);
+    }
+
+    .container {
+        display: flex;
+    }
+
     img {
         border-radius: 20px;
     }
@@ -45,19 +55,27 @@
         font-size: 30px;
     }
 
+    
+
 </style>
 
 
 </head>
 
 <body>
-    <h1>Portifólio Web de Fernando Barreto</h1>
-    <img src="images/proflie-pic.jpeg" alt="Foto muito bonita do estudante tryber Fernando Barreto" width="300px">
-     <ul>
+    <h1>Fernando Barreto</h1>
+    <div class="container">
+    <div class="picture">   <img src="images/proflie-pic.jpeg" alt="Foto muito bonita do estudante tryber Fernando Barreto" width="300px">
+    </div>
+    
+    <div class="listalinks">
+    <ul>
         <li><a href="#quemSouEu">Quem sou eu</a></li>
         <li><a href="#comoEuSou">Qualidades</a></li>
         <li><a href="#linksExternos">Links Externos</a></li>
     </ul>
+    </div>
+    </div>
     <h2 style="font-size:40px;" id="quemSouEu">Quem sou:</h2>
     <div class="textos">
     <p id="apresentacao">Meu nome é Fernando Barreto, sou advogado em transição de carreira e estudante de engenharia de software da <strong>Trybe!</strong><br>
