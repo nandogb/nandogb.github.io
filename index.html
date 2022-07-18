@@ -5,8 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fernando Barreto</title>
-    <link rel="stylesheet" type="text/css" href="fontes.css">
 <style>
+
+    * {
+        margin: 0;
+        padding: 0;
+    }
 
     body {
         background-color: rosybrown;
@@ -23,7 +27,7 @@
     }
 
     .container {
-        display: flex;
+        display:flex;
         width: 80%;
     }
 
@@ -33,7 +37,7 @@
     
 
     ul {
-        font-size:20px;
+        font-size:30px;
     }
 
     #linksExternos {
@@ -78,7 +82,7 @@
         background-color: yellow;
     }
 
-    .bloco01:hover, h2:hover {
+    #bloco01:hover {
         background-color: white;
     }
 
@@ -101,14 +105,14 @@
             </ul>
         </div>
     </div>
-        <div class="bloco01">
+        <div id="bloco01">
         <h2 style="font-size:40px;" id="quemSouEu">Quem sou:</h2>
         <div class="textos">
         <p id="apresentacao">Meu nome é Fernando Barreto, sou advogado em transição de carreira e estudante de engenharia de software da <strong>Trybe!</strong><br>
     Sou natural de Recife, Pernambuco e tenho 28 anos</p>
         </div>
     </div>
-    <div class="bloco02">
+    <div id="bloco02">
         <h3 style="font-size:40px;" id="comoEuSou">Qualidades</h3>
         <div class="textos">
         <ol class="listaQualidades">
@@ -122,7 +126,7 @@
         </ol>
         </div>
     </div>
-    <div class="bloco03">
+    <div id="bloco03">
         <h4 id="linksExternos">Links Externos</h4><br>
         <div>
         <p id="redesSociais"><a href="https://open.spotify.com/user/12145821074?si=e4a5d763e86949db" target="_blank"><em>Quem sou eu +</em></a><br>
